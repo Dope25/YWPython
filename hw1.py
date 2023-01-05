@@ -51,5 +51,5 @@ def task_5():
     print(_newstr)
 
 
-def task_6():
+# def task_6():
     
