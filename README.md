@@ -1,6 +1,7 @@
 # YWPython
 
 Homework Assignments for Python course by Yuval Wilf
-02/01/2023
-11/01/2023
-18/01/2023
+<br>02/01/2023
+<br>11/01/2023
+<br>18/01/2023
+<br>
