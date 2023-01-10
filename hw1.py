@@ -19,7 +19,7 @@ def task_1():
 # The character at index 7 equals ‘a’.
 # The character at index 8 equals ‘b’.
 # The character at index 9 equals ‘c’.
-# If all conditions exists please print “True”,
+# If all conditions exist please print “True”,
 # Else print False.
 # Pay attention for edge cases like the length of the string and so on.
 # Your program must not crash for any string.
@@ -76,13 +76,13 @@ def task_4():
 # 	The rotated string is bxxxcyya
 def task_5():
     _str = "Californication"
-    _str = "afffbeeec"
+    _str = 'afffbeeec'
     if len(_str) < 3:
         print(f"String '{_str}' is too short.")
     else:
         _middle = len(_str) // 2
         _newstr = _str[_middle] + _str[1:_middle] + _str[-1] + _str[_middle + 1:-1] + _str[0]
-    print(_newstr)
+        print(_newstr)
 
 
 # 6)	Write a Python function to insert a string in the space of the original string.
@@ -98,7 +98,21 @@ def task_6():
 def task_7():
     _str = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " \
            "dolore magna aliqua."
-    print(sorted(_str.split()))
+    print(''.join(sorted(_str)))
 
 
-task_7()
+# 8)	Write a Python program to print the following floating numbers upto 2 decimal places
+def task_8():
+    _num1 = 3.1415926
+    _num2 = 12.9999
+    print(f"{round(_num1, 2)}, {round(_num2, 2)}")
+
+
+# 9)	Write a Python program to count occurrences of a substring in a string. Look for a relevant method.
+def task_9():
+    _str = "Welcome to w3resource.com"
+    _substring = "com"
+    print(f"{_str.count(_substring)} occurances of '{_substring}' in '{_str}'")
+
+
+task_9()
